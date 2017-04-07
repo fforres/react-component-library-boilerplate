@@ -69,7 +69,7 @@ in the proyect you are importing this module.
 We are using [CSS Modules](https://github.com/css-modules/css-modules) for the styling default solution.
 So you can use it's power for developing :)
 
-Afterwards all bundled css files will get extracted to `./dist/combined.css`.
+Afterwards all bundled css files will get extracted to `./dist/combined.css` by the macig of babel + a [css-modules-transform plugin](https://github.com/michalkvasnicak/babel-plugin-css-modules-transform)
 
 That can get imported using
 ```javascript
