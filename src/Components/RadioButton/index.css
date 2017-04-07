@@ -1,0 +1,10 @@
+.base {
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  font-size: 1.5em;
+  padding: 0.6em;
+}
+.base:hover {
+  cursor: pointer;
+}

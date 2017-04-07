@@ -1,0 +1,52 @@
+{
+  "name": "react-hot-loader-minimal-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "BABEL_ENV=build NODE_ENV=production babel --plugins transform-react-jsx ./src/Components --out-dir ./dist",
+    "lint": "eslint src/** --color || exit 0;",
+    "dev": "BABEL_ENV=development webpack-dev-server --hot --history-api-fallback --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wkwiatek/react-hot-loader-minimal-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wkwiatek/react-hot-loader-minimal-boilerplate/issues"
+  },
+  "homepage": "https://github.com/wkwiatek/react-hot-loader-minimal-boilerplate#readme",
+  "dependencies": {
+    "babel-eslint": "^7.2.1",
+    "css-loader": "^0.28.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "rimraf": "^2.6.1",
+    "skills": "^1.0.0",
+    "style-loader": "^0.16.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-css-modules-transform": "^1.2.7",
+    "babel-plugin-transform-react-jsx": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}

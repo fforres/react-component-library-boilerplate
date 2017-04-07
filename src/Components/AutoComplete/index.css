@@ -1,0 +1,18 @@
+.base {
+  padding: 1em;
+}
+.input {
+  width: 20em;
+  padding: 0.2em;
+  font-size: 1.4em;
+}
+
+.inputArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.suggestion {
+  list-style: none;
+}
