@@ -14,7 +14,8 @@ Note that this is an ***opinionated boilerplate.***
 
 ### INSTALLATION (AKA How do I use this)
 ```
-git clone --bare https://github.com/fforres/react-component-library-boilerplate.git {your_awesome_library_name}
+git clone --depth=1 --branch=master https://github.com/fforres/react-component-library-boilerplate.git YOUR_AWESOME_LIBRARY_NAME
+rm -rf !$/.git
 ```
 #### And that's it!
 
